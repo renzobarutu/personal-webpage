@@ -1,0 +1,140 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+border: none;
+outline: none;
+font-family: 'poppins',sans-serif;
+}
+
+html{
+font-size: 62.5%;
+}
+
+body{
+width: 100%;
+height: 100vh;
+overflow-x: hidden;
+background-color: lightseagreen;
+color: rgb(24, 22, 22);
+}
+
+header{
+margin-top: 20px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 1rem 9%;
+background-color: transparent;
+filter: drop-shadow(10px);
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+
+.logo{
+font-size: 3rem;
+color: rgb(13, 13, 14);
+font-weight: 800;
+cursor: pointer;
+transition: scale(1.1);
+}
+
+    .logo:hover{
+        transform: scale(1.1);
+    }
+
+nav a{
+font-size: 1.8rem;
+color: rgb(21, 12, 12);
+margin-left: 1rem;
+font-weight: 500;
+align-items: left;
+border-bottom: 3px solid transparent;
+}
+
+nav a:hover
+nav a.active{
+border-bottom: 3px solid rgb(23, 23, 23);
+}
+
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    width: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid lightsalmon;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem;
+}
+
+.social-icons a:hover{
+    color:black;
+    transform: scale(1.3)translate(-5px);
+    background-color: green;
+    box-shadow: 0 0 25px greenyellow;
+}
+
+section{
+min-height: 100vh;
+padding: 5rem 9% 5rem;
+}
+
+.Projects{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8rem;
+background-color: lightseagreen;
+}
+
+.Projects .Projects-content h1{
+font-size: 6rem;
+font-weight: 700;
+line-height: 1.3;
+}
+
+span{
+color: black;
+}
+
+.Projects-content h3{
+font-size: 4rem;
+margin-bottom: 1rem;
+font-weight: 700;
+}
+
+.Projects-img{
+border-radius: 60%;
+}
+  
+.Projects-img img{
+position: relative;
+width: 32vw;
+border-radius: 60%;
+box-shadow: 0 0 25px solid blue;
+cursor: pointer;
+}
+
+.div2
+{
+    text-shadow: -1px -1px whitesmoke;
+}
+
+p.border1
+{
+border-top-style:dotted;
+border-right-style:solid;
+border-bottom-style:dashed;
+border-left-style:groove;
+
+border-color:maroon;
+border-width:5px 40px 20px;
+border-left: 10px;
+border-right: 10px;
+border-radius: 10px;
+border-bottom-left-radius: 5px;
+}
